@@ -1,0 +1,12 @@
+name: iddpm2
+channels:
+    - pytorch
+dependencies:
+    - python=3.8
+    - pytorch=1.12.1
+    - torchvision=0.13.1
+    - cudatoolkit=11.3
+    - mpi4py
+    - pip
+    - pip:
+        - -e .
