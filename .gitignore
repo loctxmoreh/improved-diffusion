@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 
+improved_diffusion.egg-info/
+*.pt
+datasets/cifar_*/
