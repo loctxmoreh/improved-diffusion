@@ -1,0 +1,13 @@
+name: iddpm
+channels:
+    - pytorch
+dependencies:
+    - python=3.8
+    - protobuf=3.13.0
+    - mpi4py
+    - pip
+    - pip:
+        - moreh-driver==23.1.1
+        - torch==1.7.1+cu110.moreh23.1.1
+        #- torch==1.10.0+cu111.moreh23.1.1
+        - -e .
